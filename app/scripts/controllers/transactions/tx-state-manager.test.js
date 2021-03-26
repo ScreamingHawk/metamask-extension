@@ -822,7 +822,7 @@ describe('TransactionStateManager', function () {
     });
   });
 
-  describe('#getTx', function () {
+  describe('#getTransaction', function () {
     it('returns a tx with the requested id', function () {
       txStateManager.addTransaction(
         {
